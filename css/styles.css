@@ -428,7 +428,7 @@ h3 {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5; /* 200% */
@@ -444,7 +444,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   border-radius: 4px;
@@ -513,7 +513,7 @@ h3 {
   height: 24px;
   border-radius: 50%;
   background-color: #e7e9fc;
-  border: 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
   margin-bottom: 24px;
